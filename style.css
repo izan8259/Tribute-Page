@@ -1,0 +1,67 @@
+main {
+  font-family: "arial", sans-serif;
+  background-color: hsl(34, 35%, 95%);
+  
+}
+
+#title {
+  padding-top: 3%;
+ text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+#img-div {
+  padding: 1.5% 11.5%;
+  display: block;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: white;
+}
+
+img {
+    display: block;
+   max-width: 100%;
+   height: auto;
+}
+
+
+#headline {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+#info-list {
+  margin-left: 35%;
+  margin-right: 30%;
+  line-height: 1.5;
+}
+
+p {
+  margin-left: 35%;
+  margin-right: 30%;
+ 
+}
+
+cite {
+  margin-left: 35%;
+  margin-right: 30%;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 1%;
+}
+
+#source {
+  padding-bottom: 0%;
+}
+
+#wiki {
+  padding-top: 0%;
+  padding-bottom: 1.5%;
+}

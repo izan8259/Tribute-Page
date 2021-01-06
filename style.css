@@ -1,4 +1,4 @@
-main {
+/*main {
   font-family: "arial", sans-serif;
   background-color: hsl(34, 35%, 95%);
   
@@ -64,4 +64,122 @@ h3 {
 #wiki {
   padding-top: 0%;
   padding-bottom: 1.5%;
+}
+*/
+
+body {
+  background-color: white;
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+main {
+  background-color: #0C0B13;
+}
+
+#name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 300%;
+}
+
+#logo {
+  width: 9.5%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#info-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#img-display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+#first-image {
+  margin: 0% 4%;
+  padding-left: 0%;
+  width: 50%;
+}
+
+#second-image {
+  margin: 0% 4%;
+  width: 50%;
+}
+
+#third-image {
+  margin: 0% 4%;
+  width: 50%;
+}
+
+#final-image {
+  margin: 0% 4%;
+  width: 50%;
+}
+
+img {
+  padding-bottom: 5%;
+}
+
+#headline {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#tribute-info {
+  color: white;
+  padding-right: 18%;
+}
+
+#tribute-info ul li{
+  margin: 0 0 5px 0;
+  padding-top: 2%;
+  padding-bottom: 0%;
+}
+
+#info-list {
+  list-style-type: none;
+}
+
+strong {
+  color:#C4A8FF;
+}
+
+p {
+  margin-top: 2%;
+}
+
+footer {
+  color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 1%;
+}
+
+#source {
+  padding-bottom: 0%;
+}
+
+#wiki {
+  padding-top: 0%;
+  padding-bottom: 1.5%;
+}
+
+a {
+  color: #C4A8FF;
 }

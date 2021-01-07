@@ -72,6 +72,7 @@ body {
   margin-top: 0%;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 0%;
 }
 
 main {
@@ -111,25 +112,40 @@ main {
   margin: 0% 4%;
   padding-left: 0%;
   width: 50%;
+  margin-bottom: 5%;
 }
 
 #second-image {
   margin: 0% 4%;
   width: 50%;
+  margin-bottom: 5%;
 }
 
 #third-image {
   margin: 0% 4%;
   width: 50%;
+  margin-bottom: 5%;
+}
+
+#fourth-image {
+  margin: 0% 4%;
+  width: 50%;
+  margin-bottom: 5%;
+
 }
 
 #final-image {
   margin: 0% 4%;
   width: 50%;
+  margin-bottom: 5%;
 }
 
 img {
-  padding-bottom: 5%;
+  border-radius: 5%;
+}
+
+#img-display img:hover {
+    box-shadow: 5px 10px 15px #C4A8FF;
 }
 
 #headline {
@@ -139,13 +155,14 @@ img {
 
 #tribute-info {
   color: white;
-  padding-right: 18%;
+  padding-right: 10%;
 }
 
 #tribute-info ul li{
   margin: 0 0 5px 0;
   padding-top: 2%;
   padding-bottom: 0%;
+  font-size: 120%;
 }
 
 #info-list {
@@ -158,6 +175,7 @@ strong {
 
 p {
   margin-top: 2%;
+  
 }
 
 footer {
@@ -177,9 +195,30 @@ h3 {
 
 #wiki {
   padding-top: 0%;
-  padding-bottom: 1.5%;
+  padding-bottom: 5%;
+  margin-bottom: 0%;
 }
 
 a {
   color: #C4A8FF;
+}
+
+@media (max-width: 350px) {
+  h1 {
+    font-size: 8vw;
+    max-width: 100%;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  p {
+    font-size: 2vw;
+  }
+  h2 {
+
+  }
+  h3 {
+
+  }
 }
